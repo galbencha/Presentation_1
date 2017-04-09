@@ -95,6 +95,7 @@ div.slide {
   right: 0;
   line-height: 120%;
   background-color: transparent;
+  overflow:hidden;
 }
 
 div.background {
@@ -165,6 +166,13 @@ div.toc-heading {
 
 img {
   image-rendering: optimize-quality;
+  border:solid;
+  border-color:black;
+  border-width:5px;
+  border-radius:5px;
+}
+
+video {
   border:solid;
   border-color:black;
   border-width:5px;
@@ -377,4 +385,17 @@ div.initial_prompt { display: none; visibility: hidden }
   div.slide { page-break-before: always }
   /* :first-child isn't reliable for print media */
   div.slide.first-slide { page-break-before: avoid }
+}
+
+.floatleft {
+  clear:left;
+  float:left;
+  margin-left:30px;
+  margin-right:70px;
+}
+
+.floatright {
+  margin-left:70px;
+  clear:right; 
+  float:right;
 }
