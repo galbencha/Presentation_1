@@ -30,15 +30,6 @@ Gal Ben-Chanoch
 </ul>
 <script type="text/javascript">
 
-var themeCounter = 0;
-
-function themeCount(e){
-  if((e || window.event).keyCode == 79){
-    themeCounter = themeCounter + 1;
-    console.log(themeCounter);
-  };
-}
-
 function changeCSS(cssFile, cssLinkIndex) {
 
     var oldlink = document.getElementsByTagName("link")[1]
@@ -52,17 +43,44 @@ function changeCSS(cssFile, cssLinkIndex) {
 }
 
 function changeTheme(e){
-              if((e || window.event).keyCode == 79){
-                if(themeCounter %2 == 1){
-                  changeCSS("styles/styles2.css",0);
-                } else{
-                    changeCSS("styles/styles.css",0);
-                  };
-                  console.log(document.getElementsByTagName("head"));
-              };
-        };
+  /*Click 1*/
+  if((e || window.event).keyCode == 49){
+    changeCSS("styles/theme1.css",0);
+    };
+  /*Click 2*/
+  if((e || window.event).keyCode == 50){
+    changeCSS("styles/theme2.css",0);
+  };
+  /*Click 3
+  if((e || window.event).keyCode == 51){
+    changeCSS("styles/theme3.css",0);
+  };
+  /*Click 4
+  if((e || window.event).keyCode == 52){
+    changeCSS("styles/theme4.css",0);
+  };
+  /*Click 5
+  if((e || window.event).keyCode == 53){
+    changeCSS("styles/theme5.css",0);
+  };
+  /*Click 6
+  if((e || window.event).keyCode == 54){
+    changeCSS("styles/theme6.css",0);
+  };
+  /*Click 7
+  if((e || window.event).keyCode == 55){
+    changeCSS("styles/theme7.css",0);
+  };*
+  /*Click 8
+  if((e || window.event).keyCode == 56){
+    changeCSS("styles/theme8.css",0);
+  };
+  /*Click 9
+  if((e || window.event).keyCode == 57){
+    changeCSS("styles/theme9.css",0);
+  };*/
+};
 
-    document.addEventListener('keydown', themeCount, false);
     document.addEventListener('keydown', changeTheme, false);
 </script>
 </div>
