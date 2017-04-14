@@ -1,7 +1,7 @@
 body{
-	background:url("images/altbg.jpg");
-	color:black;
-	text-shadow: none;
+	background:url("images/bg.jpg");
+	color:white;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 	font-family:"Georgia";
 	margin: 0 0 0 0;
   padding: 0 0 0 0;
@@ -21,12 +21,12 @@ div.toolbar {
   font-size: 60%;
   background-color:rgb(0,0,0);
   background-color:rgba(0,0,0,0.6);
-  color: black;
+  color: white;
   border-top: solid 2px black;
 }
 
 div.toolbar span.copyright {
-  color: black;
+  color: white;
   margin-left: 1em;
 }
 
@@ -63,13 +63,13 @@ div.slidy_toc {
   left: 4em;
   bottom: 4em;
   padding: 1em;
-  background-color: rgb(255,255,255);
-  background-color: rgba(255,255,255,0.5);
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0,0.5);
   border-style: solid;
   border-width: 2px;
   border-radius:5px;
   font-size: 60%;
-  color:black;
+  color:white;
 }
 
 div.slidy_toc .toc_heading {
@@ -78,7 +78,7 @@ div.slidy_toc .toc_heading {
   margin: 0;
   margin-bottom: 1em;
   border-bottom-style: solid;
-  border-bottom-color: black;
+  border-bottom-color: white;
   border-bottom-width: 1px;
 }
 
@@ -127,12 +127,13 @@ div.slide.titlepage h1 {
   margin-top:130px;
   border-top:solid;
   border-top-width:2px;
-  border-top-color:black;
+  border-bottom:solid;
+  border-bottom-width:2px;
+  border-color:black;
 }
 
 div.slide h1 {
-  background-color:rgb(0,0,0);
-  background-color:rgba(0,0,0,0.5);
+  background-image:url('images/darkbg.jpg');
   text-align:center;
   padding-left: 0;
   padding-right: 0;
@@ -221,14 +222,14 @@ p.copyright { font-size: smaller }
 
 a img { border-width: 0; border-style: none }
 
-a:visited { color: black }
-a:link { color: black }
+a:visited { color: white }
+a:link { color: white }
 a:hover { color: rgb(153,229,255); text-decoration: underline }
 a:active { color: rgb(153,229,255); text-decoration: underline }
 
 a {text-decoration: none}
-.toolbar a:link {color: black}
-.toolbar a:visited {color: black}
+.toolbar a:link {color: white}
+.toolbar a:visited {color: white}
 .toolbar a:active {color: rgb(153,229,255)}
 .toolbar a:hover {color: rgb(153,229,255)}
 
@@ -409,6 +410,7 @@ div.initial_prompt { display: none; visibility: hidden }
 
 .caption {
   font-size:10pt;
+  line-height:145%;
   text-align:left;
   margin:0 0 0 0;
   padding:0 0 0 5px;

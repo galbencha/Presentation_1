@@ -127,7 +127,9 @@ div.slide.titlepage h1 {
   margin-top:130px;
   border-top:solid;
   border-top-width:2px;
-  border-top-color:black;
+  border-bottom:solid;
+  border-bottom-width:2px;
+  border-color:black;
 }
 
 div.slide h1 {
@@ -409,11 +411,12 @@ div.initial_prompt { display: none; visibility: hidden }
 
 .caption {
   font-size:10pt;
+  line-height:145%;
+  color:white;
   text-align:left;
   margin:0 0 0 0;
   padding:0 0 0 5px;
   background-color:rgb(0,0,0);
-  background-color:rgba(0,0,0,0.5);
   border:solid;
   border-color:black;
   border-width:3px;
