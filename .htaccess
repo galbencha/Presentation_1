@@ -1,0 +1,4 @@
+AuthType Basic  
+AuthName "restricted area"  
+AuthUserFile /Users/galben-chanoch/Desktop/Code/R/Presentation_1./presentation.htpasswd  
+require valid-user
