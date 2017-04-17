@@ -1,5 +1,6 @@
 body{
 	background:url("images/uf1.jpg");
+	background-size:cover;
 	color:#253a98;
 	text-shadow: none;
 	font-family:"Georgia";
@@ -117,6 +118,7 @@ div.handout {
 div.slide.titlepage {
   text-shadow: none;
   background:url("images/uftitle1.jpg");
+  background-size:cover;
   color:#253a98;
   text-align: center;
   font-size:28pt;

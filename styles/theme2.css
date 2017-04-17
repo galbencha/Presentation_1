@@ -1,5 +1,6 @@
 body{
 	background:url("images/altbg.jpg");
+	background-size:cover;
 	color:black;
 	text-shadow: none;
 	font-family:"Georgia";

@@ -1,5 +1,6 @@
 body{
 	background:url("images/bg.jpg");
+	background-size:cover;
 	color:white;
 	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 	font-family:"Georgia";
@@ -142,6 +143,7 @@ div.slide.titlepage h1 {
 
 div.slide h1 {
   background-image:url('images/darkbg.jpg');
+  background-size:cover;
   text-align:center;
   padding-left: 0;
   padding-right: 0;
